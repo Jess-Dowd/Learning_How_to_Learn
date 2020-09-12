@@ -17,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   border: 1px black solid;
+  position: relative;
 }
 
 
@@ -59,7 +60,8 @@
 }
 
 .link {
-  text-decoration-line: none;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .header__main-illustration {
@@ -171,7 +173,7 @@
   width: 1100px;
   display: flex;
   flex-direction: row;
-  
+  border: 1px black solid;
 }
 
 .table__row {
@@ -263,93 +265,89 @@
 
 /*block-6----------------------------------------------------------------------------*/
 .footer {
-  border: 1px red solid;
+  border: 2px red solid;
   min-height: 350px;
-  display: flex;
   background-color: black;
   color: white;
-  position: relative;
+  width: 100%;
 }
 
 .footer__columns {
-  border: 2px red solid;
+  border: 1px blue solid;
   margin: 60px auto 40px auto;
+  min-height: 250px;
   width: 90%;
-  position: relative;
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: row;
 }
 
 .footer__column_content_copyright {
-  border: 1px red  solid;
+  margin: 0 auto 0 0;
+  display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
+  min-height: 100%;
+  width: 50%;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
-  border: 1px red  solid;
   height: 35px;
   width: 183px;
+  margin: 0px auto auto 0px;
 }
 
 .footer__author {
-  border: 1px red  solid;
-  padding: 0;
-  margin-top: 18px;
-  line-height: 15px;
+  margin: auto 0px 0px 0px;
+  line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  position: absolute;
-  bottom: 18px;
-  left: 0px;
 }
 
 .footer__column_content_info {
-  border: 1px red  solid;
+  margin: 0 auto 0 auto;
   flex-direction: column;
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 66%;
+  min-height: 100%;
 }
 
 .footer__column-heading {
-  border: 1px red  solid;
   margin-bottom: 20px;
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
-  position: absolute;
-  top: 0px;
+  margin: 0px 0px 20px 0px;
 }
 
 .footer__column-links {
-  border: 1px red solid;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 20px;
-  margin-bottom: 16px;
-  
+  text-align: left;
+  padding: 0;
+  margin: auto 0px auto 0px;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
 }
 
 .footer__column_content_social {
-  border: 1px red solid;
   flex-direction: column;
   margin-right: 0px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  
+}
+
+.social-block {
+  margin: auto 0 auto 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .footer__social-icon {
-  border: 1px red solid;
   height: 16px;
   width: 16px;
-  position: absolute;
-  right: 0px;
-  left: 0px;
+  margin-right: 10px;
+}
+
+.footer__column-links:link, .footer__column-links:visited {
+  color: white;
 }
