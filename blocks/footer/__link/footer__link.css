@@ -1,0 +1,6 @@
+.footer__link, .footer__link:visited {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+  }
+  
