@@ -1,0 +1,15 @@
+.cards__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 100px 0px 0px;
+  }
+
+  .cards__item:nth-of-type(3) {
+    margin-right: 0px;
+  }
+
+  .cards__item:last-of-type {
+    margin-right: 340px;
+  }
