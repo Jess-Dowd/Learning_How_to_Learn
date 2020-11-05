@@ -3,4 +3,7 @@
   flex-direction: row;
   align-content: flex-start;
   margin-top: 68px;
+  height: 608px;
+  width: 100%;
+  overflow: hidden;
 }
