@@ -5,8 +5,8 @@
 
 
 .table {
-    margin: 0 auto 0 auto;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 0;
     max-width: 1100px;
     display: flex;
     flex-direction: row;
